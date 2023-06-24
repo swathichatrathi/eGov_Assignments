@@ -13,7 +13,7 @@ public class Employee {
 
     public void displayTotalSalary() {
         double totalSalary = baseSalary + gratuity;
-        System.out.printf("Total salary is: %f per month\n", totalSalary);
+        System.out.printf("Total salary is: %.2f per month\n", totalSalary);
     }
 
     public void displayEmployeeRole() {
