@@ -9,7 +9,7 @@ public class Engineer extends Employee {
     @Override
     public void displayTotalSalary() {
         double totalSalary = baseSalary + gratuity + benefits;
-        System.out.printf("Total salary is: %f per month\n", totalSalary);
+        System.out.printf("Total salary is: %.2f per month\n", totalSalary);
     }
 
     @Override
