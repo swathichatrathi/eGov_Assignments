@@ -1,0 +1,21 @@
+1.Declare a class by the name of Employee which will have the following instance fields - 
+Name ( of the type string )
+Base Salary ( of the type double )
+Gratuity ( of the type double )
+Joining date ( of the type long )
+	
+This class is is also going to be having the following methods - 
+All arguments constructor
+displayTotalSalary - invocation of this method should display the total salary as sum of base salary and gratuity. For example, the output can be in this format: “Total salary is: 30000.32 per month”
+displayEmployeeRole - invocation of this method should display the following - “I am an instance of the type employee, I can do anything!”
+
+2. Declare a class by the name of Engineer which will extend the class employee and will have the following additional fields - Benefits ( of the type double )
+
+This class is going to have the following methods - 
+All arguments constructor
+displayTotalSalary - invocation of this method should display the total salary as the sum of base salary, gratuity and benefits. For example, the output can be in this format: “Total salary is: 30000.32 per month”
+displayEmployeeRole - invocation of this method should display the following - “I am an instance of type Engineer, I build stuff!”
+
+3. Now that the classes have been taken care of, this section deals with playing around with these classes. 
+a.Instantiate an object belonging to the Employee class with appropriate values and invoke displayTotalSalary and displayEmployeeRole methods.
+b.Instantiate an object belonging to the Engineer class with appropriate values and invoke overridden displayTotalSalary and displayEmployeeRole methods.
